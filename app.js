@@ -1,0 +1,5 @@
+const data={health:['OS and computer information','Memory, boot time and local disks','Structured JSON output','Read-only endpoint diagnostics'],network:['Network adapters and link status','IPv4 configuration, gateway and DNS','Structured JSON output','Read-only network inventory'],bundle:['Creates a support-bundle directory','Runs health and network collection','Collects service state and recent System events','No destructive actions'],software:['Reads installed software registry paths','Outputs name, version, publisher and install date','Useful for inventory and troubleshooting','Read-only registry inventory']};
+const select=document.querySelector("#script");
+const result=document.querySelector("#result");
+function render(){result.innerHTML=`<h3>${select.options[select.selectedIndex].text}</h3><ol>${data[select.value].map((item)=>`<li>${item}</li>`).join('')}</ol><small>Showcase summary · run actual scripts in the repository on an authorised Windows endpoint.</small>`;}
+select.addEventListener('change',render);render();
