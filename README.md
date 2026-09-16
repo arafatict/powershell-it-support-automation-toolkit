@@ -4,7 +4,7 @@ A safe, read-only PowerShell toolkit for common IT Support information collectio
 
 ## Live showcase
 
-LIVE_URL_PLACEHOLDER
+https://arafatict.github.io/powershell-it-support-automation-toolkit/
 
 ## Scripts
 
@@ -37,4 +37,4 @@ Scripts require an authorised Windows environment and are not represented as pro
 
 ## Repository
 
-REPO_URL_PLACEHOLDER
+https://github.com/arafatict/powershell-it-support-automation-toolkit
